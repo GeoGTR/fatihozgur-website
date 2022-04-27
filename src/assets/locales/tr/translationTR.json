@@ -1,4 +1,42 @@
 {
-    "greeting": "Merhaba, benim adım",
-    "self-promotion": "türkçe"
+    "_comment1": "Navbar",
+
+    "home-nav":"Anasayfa",
+    "about-nav":"Hakkında",
+    "skills-nav":"Yetenekler",
+    "work-nav":"Projeler",
+    "contact-nav":"İletişim",
+    "resume-nav":"Öz Geçmiş",
+
+    "_comment2": "Home",
+
+    "greeting-home": "Merhaba, benim adım",
+    "self-promotion-home": "Bilgisayar mühendisliği bölümünde okuyan bir öğrenciyim. Dijital deneyim oluşturma, tasarlama konusunda devloperlık yapıyorum. Şu anda full-stack web uygulamaları ve mobil uygulamalar yapmaya odaklanıyorum.",
+    "view-work-home":"Yapılan Projeler",
+
+    "_comment3": "About",
+
+    "about-about": "Hakkımda",
+    "greeting-about": "Merhaba, ben Fatih, Tanıştığımıza memnun oldum. Hakkımda daha fazla bilgi edinmek için siteye göz atın.",
+    "about-me-about":"Çevremdekilerin hayatlarını iyileştiren mükemmel yazılımlar geliştirme konusunda tutkuluyum. Sevdiğim alanlarda birşeyler öğrenmek, yenilikleri takip ve kendimi geliştirmek hayatımın parçasıdır. Bireysel ve küçük işletmelerden büyük kurumsal şirketlere kadar uzanan müşteriler için yazılım oluşturma konusunda uzmanlaşmaya çalışıyorum.",
+
+    "comment4": "Skills",
+
+    "skills-skills":"Yetenekler",
+    "explication-skills": "Şimdiye kadar kullandığım bazı teknolojiler.",
+
+    "_comment5": "Work",
+
+    "work-work": "Projeler",
+    "explication-work": "Yaptığım bazı işlere göz atın.",
+    "code-work":"Kod",
+    "demo-work":"Demo",
+
+    "_comment6": "Contact",
+
+    "contact-contact": "İletişim",
+    "explication-contact": "Formu doldurarak yada mail atarak iletişime geçebilirsiniz - ",
+    "name-contact": "İsim",
+    "message-contact": "Mesajınız",
+    "submit-form-contact" : "Gönder"
 }

@@ -2,15 +2,20 @@ import React, {useState} from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
-import TR from "../assets/tr.svg";
-import GB from "../assets/gb.svg";
+import { useTranslation } from 'react-i18next'
 import { Link } from "react-scroll";
+
+import Logo from "../assets/imgs/logo.png";
+import TR from "../assets/imgs/tr.svg";
+import GB from "../assets/imgs/gb.svg";
+
 import i18n from "../i18n";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  const { t }= useTranslation();
 
   const changeLanguage = (ln) => {
     return () => {
@@ -28,27 +33,27 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
-            Home
+            {t('home-nav')}
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
-            About
+          {t('about-nav')}
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+          {t('skills-nav')}
           </Link>
         </li>
         <li>
           <Link to="work" smooth={true} duration={500}>
-            Work
+          {t('work-nav')}
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+          {t('contact-nav')}
           </Link>
         </li>
         <li>
@@ -66,7 +71,7 @@ const Navbar = () => {
               onClick={changeLanguage("en")}
               className="border-2 flex items-center text-white hover:bg-[#43baff] hover:border-[#43baff]"
             >
-              GB 
+              EN 
               <span className="pl-2">
                 <img src={GB} alt="Logo" style={{ width: "20px" }} />
               </span>
@@ -104,7 +109,7 @@ const Navbar = () => {
               onClick={changeLanguage("en")}
               className="border-2 flex items-center text-white hover:bg-[#43baff] hover:border-[#43baff]"
             >
-              GB 
+              EN 
               <span className="pl-2">
                 <img src={GB} alt="Logo" style={{ width: "20px" }} />
               </span>
@@ -114,31 +119,31 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
+          {t('home-nav')}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+          {t('about-nav')}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+          {t('skills-nav')}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+          {t('work-nav')}
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+          {t('contact-nav')}
           </Link>
         </li>
         
@@ -150,7 +155,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/fatih-%C3%B6zg%C3%BCr-3406b2167/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -158,7 +163,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/GeoGTR"
             >
               Github <FaGithub size={30} />
             </a>
@@ -166,7 +171,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:fatihozgurcmpe@email.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -176,7 +181,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              {t('resume-nav')} <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

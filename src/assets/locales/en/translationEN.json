@@ -1,4 +1,46 @@
 {
-    "greeting": "Hi, my name is",
-    "self-promotion": "ingilizce"
+    "_comment1":"Navbar",
+
+    "home-nav":"Home",
+    "about-nav":"About",
+    "skills-nav":"Skills",
+    "work-nav":"Work",
+    "contact-nav":"Contact",
+    "resume-nav":"Resume",
+
+    "_comment2": "Home",
+
+    "greeting-home": "Hi, my name is",
+    "self-promotion-home": "I am a student studying computer engineering. I am a developer in creating and designing digital experience. Currently, I'm focusing on making full-stack web apps and mobile apps.",
+    "view-work-home":"View Work",
+
+    "_comment3": "About",
+
+    "about-about": "About",
+    "greeting-about": "Hi. I'm Fatih, nice to meet you. Please take a look around.",
+    "about-me-about":"I am passionate about developing great software that improves the lives of those around me. It is part of my life to learn something in the fields I love, to follow the innovations and to improve myself. I am trying to specialize in creating software for clients ranging from individuals and small businesses to large corporate companies.",
+
+    "_comment4": "Skills",
+
+    "skills-skills":"Skills",
+    "explication-skills": "These are the technologies I've worked with",
+
+    "_comment5": "Work",
+
+    "work-work": "Work",
+    "explication-work": "Check out some of my recent work",
+    "code-work":"Code",
+    "demo-work":"Demo",
+
+    "_comment6": "Contact",
+
+    "contact-contact": "Contact",
+    "explication-contact": "Submit the form below or send me an email - ",
+    "name-contact": "Name",
+    "message-contact": "Message",
+    "submit-form-contact" : "Let's Collaborate"
+
+
+
+
 }
