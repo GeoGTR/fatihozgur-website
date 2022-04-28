@@ -85,7 +85,7 @@ const Contact = () => {
             <li className="w-full h-full flex justify-between items-center bg-[#565f69]">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
-                href="/"
+                href="https://drive.google.com/file/d/1rfFfmqgyVhxwuOnjhMmD_2cE3C4P0nEt/view?usp=sharing"
               >
                 {t("resume-nav")} <BsFillPersonLinesFill size={30} />
               </a>
