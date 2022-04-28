@@ -1,5 +1,5 @@
 import React from 'react'
-import Typical from 'react-typical'
+import Typical from 'react-typing-effect'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 import Link from 'react-scroll/modules/components/Link'
@@ -19,15 +19,12 @@ const Home = () => {
           I'm a 
         </h2>
         <div className='pb-4 font-bold text-transparent text-4xl sm:text-7xl bg-clip-text bg-gradient-to-r from-[#8892b0] to-blue-600'>
-          <Typical
-            loop={Infinity}
-            wrapper="p"
-            steps={[
-                "Computer Engineer",
-                2000,
-                "Developer",
-                2000,
-            ]}
+            <Typical
+             text={["Computer Engineer", "Developer"]}
+             speed="100"
+             eraseSpeed="100"
+             eraseDelay="1000"
+             typingDelay="100"
             />
         </div>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
