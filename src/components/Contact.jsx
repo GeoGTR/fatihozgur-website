@@ -55,7 +55,7 @@ const Contact = () => {
       </div>
 
       {/* social icons */}
-      <div className="">
+      <div className="text-sm sm:text-base">
         <div className="mx-auto flex flex-col justify-center w-full h-full">
           <ul className="grid grid-cols-4 lg:hidden">
             <li className="w-full h-[40px] flex justify-between items-center bg-blue-600">
