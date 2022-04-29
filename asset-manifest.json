@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b29bd6a.css",
-    "main.js": "/static/js/main.c8b3be68.js",
+    "main.css": "/static/css/main.f5967354.css",
+    "main.js": "/static/js/main.558ad69d.js",
     "static/media/kzmobil.png": "/static/media/kzmobil.8780f7ef613809cffa35.png",
     "static/media/kzkulaklik.jpg": "/static/media/kzkulaklik.414a6bf9a1270002e8fd.jpg",
     "static/media/fatihozgurWebsite.png": "/static/media/fatihozgurWebsite.ac5c42388c0fd86a4fcb.png",
@@ -18,11 +18,11 @@
     "index.html": "/index.html",
     "static/media/tr.svg": "/static/media/tr.a1a28a5eb8eceaad90b38395a1000ff3.svg",
     "static/media/gb.svg": "/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
-    "main.1b29bd6a.css.map": "/static/css/main.1b29bd6a.css.map",
-    "main.c8b3be68.js.map": "/static/js/main.c8b3be68.js.map"
+    "main.f5967354.css.map": "/static/css/main.f5967354.css.map",
+    "main.558ad69d.js.map": "/static/js/main.558ad69d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b29bd6a.css",
-    "static/js/main.c8b3be68.js"
+    "static/css/main.f5967354.css",
+    "static/js/main.558ad69d.js"
   ]
 }
