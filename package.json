@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Fatih Ozgur's Website",
   "private": true,
-  "homepage": "https://geogtr.github.io/fatihozgur-website/",
+  "homepage": "http://fatihozgur.software",
   "author": "Fatih Özgür<fatihozgurcmpe@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
