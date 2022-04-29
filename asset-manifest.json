@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/fatihozgur-website/static/css/main.1b29bd6a.css",
-    "main.js": "/fatihozgur-website/static/js/main.57e0bce6.js",
-    "static/media/kzmobil.png": "/fatihozgur-website/static/media/kzmobil.8780f7ef613809cffa35.png",
-    "static/media/kzkulaklik.jpg": "/fatihozgur-website/static/media/kzkulaklik.414a6bf9a1270002e8fd.jpg",
-    "static/media/fatihozgurWebsite.png": "/fatihozgur-website/static/media/fatihozgurWebsite.ac5c42388c0fd86a4fcb.png",
-    "static/media/react.png": "/fatihozgur-website/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/css.png": "/fatihozgur-website/static/media/css.ce0d39e55464798699a5.png",
-    "static/media/html.png": "/fatihozgur-website/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/csharp.png": "/fatihozgur-website/static/media/csharp.ee6832f9fb2459dc27c6.png",
-    "static/media/c.png": "/fatihozgur-website/static/media/c.277312b5d5671745cc48.png",
-    "static/media/sql.png": "/fatihozgur-website/static/media/sql.a4856b66ba39f886a040.png",
-    "static/media/xamarin.png": "/fatihozgur-website/static/media/xamarin.c5a45b9a1e4f5ea0aa78.png",
-    "static/media/vue.png": "/fatihozgur-website/static/media/vue.fba04b336f9f4ae23359.png",
-    "static/media/javascript.png": "/fatihozgur-website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "static/media/logo.svg": "/fatihozgur-website/static/media/logo.286934af7c70ae7e43abe60fe2909ecd.svg",
-    "index.html": "/fatihozgur-website/index.html",
-    "static/media/tr.svg": "/fatihozgur-website/static/media/tr.a1a28a5eb8eceaad90b38395a1000ff3.svg",
-    "static/media/gb.svg": "/fatihozgur-website/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
-    "main.1b29bd6a.css.map": "/fatihozgur-website/static/css/main.1b29bd6a.css.map",
-    "main.57e0bce6.js.map": "/fatihozgur-website/static/js/main.57e0bce6.js.map"
+    "main.css": "/static/css/main.1b29bd6a.css",
+    "main.js": "/static/js/main.c8b3be68.js",
+    "static/media/kzmobil.png": "/static/media/kzmobil.8780f7ef613809cffa35.png",
+    "static/media/kzkulaklik.jpg": "/static/media/kzkulaklik.414a6bf9a1270002e8fd.jpg",
+    "static/media/fatihozgurWebsite.png": "/static/media/fatihozgurWebsite.ac5c42388c0fd86a4fcb.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/css.png": "/static/media/css.ce0d39e55464798699a5.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/csharp.png": "/static/media/csharp.ee6832f9fb2459dc27c6.png",
+    "static/media/c.png": "/static/media/c.277312b5d5671745cc48.png",
+    "static/media/sql.png": "/static/media/sql.a4856b66ba39f886a040.png",
+    "static/media/xamarin.png": "/static/media/xamarin.c5a45b9a1e4f5ea0aa78.png",
+    "static/media/vue.png": "/static/media/vue.fba04b336f9f4ae23359.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/logo.svg": "/static/media/logo.286934af7c70ae7e43abe60fe2909ecd.svg",
+    "index.html": "/index.html",
+    "static/media/tr.svg": "/static/media/tr.a1a28a5eb8eceaad90b38395a1000ff3.svg",
+    "static/media/gb.svg": "/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
+    "main.1b29bd6a.css.map": "/static/css/main.1b29bd6a.css.map",
+    "main.c8b3be68.js.map": "/static/js/main.c8b3be68.js.map"
   },
   "entrypoints": [
     "static/css/main.1b29bd6a.css",
-    "static/js/main.57e0bce6.js"
+    "static/js/main.c8b3be68.js"
   ]
 }
